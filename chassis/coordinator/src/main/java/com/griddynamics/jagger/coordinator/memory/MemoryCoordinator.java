@@ -102,7 +102,7 @@ public class MemoryCoordinator implements Coordinator {
                                         listener.onCommandExecuted(command);
                                         callback.onSuccess(execute);
                                     } catch (Throwable throwable) {
-                                        log.error("Error during command execution!", throwable);
+                                        log.error("Error during command ({}) execution!",command.toString(), throwable);
                                         callback.onFailure(throwable);
                                     }
                             }

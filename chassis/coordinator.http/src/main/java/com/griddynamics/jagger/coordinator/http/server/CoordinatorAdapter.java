@@ -31,6 +31,7 @@ import com.griddynamics.jagger.coordinator.async.FutureAsyncCallback;
 import com.griddynamics.jagger.coordinator.http.AbstractProxyWorker;
 import com.griddynamics.jagger.coordinator.http.DefaultPackExchanger;
 import com.griddynamics.jagger.coordinator.http.PackExchanger;
+import com.griddynamics.jagger.util.Timeout;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -39,6 +40,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executor;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 /**
  * Adapts {@link Coordinator} to {@link TransportHandler}.
@@ -67,10 +70,12 @@ public class CoordinatorAdapter implements TransportHandler {
     private final Map<NodeId, DefaultPackExchanger> exchangers = Maps.newConcurrentMap();
     private final Coordinator coordinator;
     private final Executor executor;
+    private final Timeout commandHandlingTimeout;
 
-    public CoordinatorAdapter(Coordinator coordinator, Executor executor) {
+    public CoordinatorAdapter(Coordinator coordinator, Executor executor, Timeout commandHandlingTimeout) {
         this.coordinator = coordinator;
         this.executor = executor;
+        this.commandHandlingTimeout = commandHandlingTimeout;
     }
 
     @Override
@@ -114,9 +119,12 @@ public class CoordinatorAdapter implements TransportHandler {
                 packExchanger.run(command, callback);
 
                 SettableFuture<Serializable> future = callback.getFuture();
+                log.debug("Waiting for command completion");
                 try {
-                    log.debug("Waiting for command completion");
-                    return future.get();
+                    return future.get(commandHandlingTimeout.getValue(), TimeUnit.MILLISECONDS);
+                } catch (TimeoutException e) {
+                    log.error("Timeout of {} failed \n{}", commandHandlingTimeout.toString(), e);
+                    throw Throwables.propagate(e);
                 } catch (InterruptedException e) {
                     throw Throwables.propagate(e);
                 } catch (ExecutionException e) {

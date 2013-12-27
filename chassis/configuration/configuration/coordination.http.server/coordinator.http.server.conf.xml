@@ -68,12 +68,18 @@
     <bean id="coordinatorAdapter" class="com.griddynamics.jagger.coordinator.http.server.CoordinatorAdapter">
         <constructor-arg ref="coordinator"/>
         <constructor-arg ref="coordinatorAdapterExecutor"/>
+        <constructor-arg ref="commandHandlingTimeout"/>
     </bean>
 
     <bean id="coordinatorAdapterExecutor" class="com.griddynamics.jagger.util.ConfigurableExecutor">
         <property name="corePoolSize" value="2"/>
         <property name="maximumPoolSize" value="10"/>
         <property name="nameFormat" value="coordinator-http-adapter-%d"/>
+    </bean>
+
+    <bean id="commandHandlingTimeout" class="com.griddynamics.jagger.util.Timeout">
+        <property name="value" value="${chassis.coordinator.handle.http.command.awaittime}"/>
+        <property name="name"  value="chassis.coordinator.handle.http.command.awaittime"/>
     </bean>
 
 </beans>
