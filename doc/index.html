@@ -5,16 +5,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.4"/>
-<title>Jagger: Jagger source code documentation</title>
+<title>Jagger: Jagger 2.0 documentation</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="my_customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -67,6 +75,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('index.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -83,37 +105,78 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Jagger source code documentation </div>  </div>
+<div class="title">Jagger 2.0 documentation </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Documentation version:  <div class="fragment"><div class="line">Version: 1.2.3</div>
+<div class="textblock"><p>Documentation version:  <div class="fragment"><div class="line">Version: 2.0</div>
 </div><!-- fragment --> <br/>
  Back to <a href="https://github.com/griddynamics/jagger/wiki">GitHub</a> documentation <br/>
  <br/>
  </p>
+<h1><a class="anchor" id="section_main_what_is_jagger"></a>
+Overview of Jagger capabilities</h1>
+<p>Jagger is performance test framework, suitable for local usage and for building continuous performance testing. <br/>
+ Main features: </p>
 <ul>
-<li><a class="el" href="group__Main__Test__Suite__Flow__group.html">Test suite execution sequence</a> </li>
+<li>Generate load (TODO link to load and termination) </li>
+<li>Collect performance metrics (TODO link to main performance metrics) </li>
+<li>Validate responses from the system under test </li>
+<li>Collect monitoring metrics from agents (TODO link to monitoring) </li>
+<li>Store test results </li>
+<li>Report test results </li>
+<li>Display, compare, share test results via <a class="el" href="WebUiMain.html">WebUI</a> </li>
+<li>Provide <a class="el" href="JaasMain.html">REST API</a> for the test results access </li>
+<li>Integrate to CI </li>
+<li>Rise pass/warning/fail alerts in the CI </li>
+<li>Work with custom components</li>
+</ul>
+<h1><a class="anchor" id="section_main_outdated"></a>
+Outdated (TODO remove)</h1>
+<ul>
+<li><a class="el" href="Installation.html">Installation</a></li>
+</ul>
+<ul>
+<li><a class="el" href="GettingStarted.html">GettingStarted</a></li>
+</ul>
+<ul>
+<li><a class="el" href="Components.html">Components</a></li>
+</ul>
+<ul>
 <li><a class="el" href="group__Main__Test__Flow__group.html">Test execution sequence</a></li>
 </ul>
 <ul>
+<li>Main_Aggregators_General_group </li>
 <li><a class="el" href="group__Main__Collectors__General__group.html">Collectors main page</a> </li>
-<li><a class="el" href="group__Main__Providers__General__group.html">Providers main page</a> </li>
-<li><a class="el" href="group__Main__Distributors__General__group.html">Distributors main page</a> </li>
-<li><a class="el" href="group__Main__Services__General__group.html">Jagger services main page</a> <em> <font color="#009900">NEW ver 1.2.3</font></em> </li>
-<li><a class="el" href="group__Main__Listeners__General__group.html">Listeners main page</a> <em> <font color="#009900">NEW ver 1.2.3</font></em> </li>
+<li>Main_Distributors_General_group </li>
+<li>Main_Listeners_General_group </li>
+<li>Main_Providers_General_group </li>
+<li>Main_Services_General_group </li>
+<li>Main_Decision_Maker_General_group <em> <font color="#009900">NEW ver 1.2.5</font></em> </li>
 </ul>
 <ul>
 <li><a class="el" href="group__Main__Custom__Components__group.html">Custom component</a></li>
+</ul>
+<ul>
+<li><a class="el" href="group__Main__Properties__group.html">Jagger properties main page</a> <em> <font color="#009900">NEW ver 1.2.5</font></em> </li>
+</ul>
+<ul>
+<li><a class="el" href="WebUiMain.html">Jagger WebUi</a></li>
+</ul>
+<ul>
+<li><a class="el" href="MonitoringMain.html">Jagger Monitoring Metrics</a> <em> <font color="#009900">NEW ver 1.2.5</font></em> </li>
 </ul>
 <p><br/>
  <br/>
  Other documentation <a href="../archive/index.html">versions</a> </p>
 </div></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 17 2014 16:11:52 for Jagger by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.4
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Tue Nov 15 2016 11:05:33 for Jagger by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
+  </ul>
+</div>
 </body>
 </html>
