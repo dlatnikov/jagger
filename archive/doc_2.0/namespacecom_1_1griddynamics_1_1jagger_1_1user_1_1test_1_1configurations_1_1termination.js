@@ -1,0 +1,7 @@
+var namespacecom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination =
+[
+    [ "JTermination", "interfacecom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTermination.html", null ],
+    [ "JTerminationBackground", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationBackground.html", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationBackground" ],
+    [ "JTerminationDuration", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationDuration.html", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationDuration" ],
+    [ "JTerminationIterations", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationIterations.html", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationIterations" ]
+];
