@@ -1,0 +1,4 @@
+var classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationBackground =
+[
+    [ "Builder", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationBackground_1_1Builder.html", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationBackground_1_1Builder" ]
+];
