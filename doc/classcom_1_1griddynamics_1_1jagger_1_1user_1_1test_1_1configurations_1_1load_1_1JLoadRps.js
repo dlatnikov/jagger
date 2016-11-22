@@ -1,8 +1,0 @@
-var classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1load_1_1JLoadRps =
-[
-    [ "Builder", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1load_1_1JLoadRps_1_1Builder.html", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1load_1_1JLoadRps_1_1Builder" ],
-    [ "builder", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1load_1_1JLoadRps_a7dd147d6493a743144c614335923d0aa.html#a7dd147d6493a743144c614335923d0aa", null ],
-    [ "getMaxLoadThreads", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1load_1_1JLoadRps_af849df566896eb2203160db935e8f66b.html#af849df566896eb2203160db935e8f66b", null ],
-    [ "getRequestsPerSecond", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1load_1_1JLoadRps_a72f6b34961b25b26ddc08bce3cf56629.html#a72f6b34961b25b26ddc08bce3cf56629", null ],
-    [ "getWarmUpTimeInSeconds", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1load_1_1JLoadRps_ad223211fd7a367d2f9978f6475a58ba2.html#ad223211fd7a367d2f9978f6475a58ba2", null ]
-];

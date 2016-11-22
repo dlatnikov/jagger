@@ -1,0 +1,5 @@
+var classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1aux_1_1DurationInSeconds =
+[
+    [ "of", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1aux_1_1DurationInSeconds_a4edb06d50258ea29e10e8547c3312ed1.html#a4edb06d50258ea29e10e8547c3312ed1", null ],
+    [ "value", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1aux_1_1DurationInSeconds_ad3aea1c21639fdaa55cec98f7d762f7b.html#ad3aea1c21639fdaa55cec98f7d762f7b", null ]
+];

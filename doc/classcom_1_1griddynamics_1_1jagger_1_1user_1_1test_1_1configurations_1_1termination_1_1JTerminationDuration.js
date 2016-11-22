@@ -1,6 +1,0 @@
-var classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationDuration =
-[
-    [ "Builder", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationDuration_1_1Builder.html", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationDuration_1_1Builder" ],
-    [ "builder", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationDuration_ab576d3e72d71090166418123b0e3be36.html#ab576d3e72d71090166418123b0e3be36", null ],
-    [ "getDurationInSeconds", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationDuration_a023e96a881d8f44bf8886bb5c68c9860.html#a023e96a881d8f44bf8886bb5c68c9860", null ]
-];

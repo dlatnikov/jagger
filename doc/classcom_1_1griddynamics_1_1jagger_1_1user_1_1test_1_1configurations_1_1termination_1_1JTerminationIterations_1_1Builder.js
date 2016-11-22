@@ -1,6 +1,0 @@
-var classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationIterations_1_1Builder =
-[
-    [ "build", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationIterations_1_1Builder_a35377b514aa6957c392b1206dae9a911.html#a35377b514aa6957c392b1206dae9a911", null ],
-    [ "withIterationsCount", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationIterations_1_1Builder_a17c39b7ceaa2184ccdbfbfe7aa17b12e.html#a17c39b7ceaa2184ccdbfbfe7aa17b12e", null ],
-    [ "withMaxDurationInSeconds", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationIterations_1_1Builder_a00b7e29a4d5747fb36ca7cb066c9c5db.html#a00b7e29a4d5747fb36ca7cb066c9c5db", null ]
-];

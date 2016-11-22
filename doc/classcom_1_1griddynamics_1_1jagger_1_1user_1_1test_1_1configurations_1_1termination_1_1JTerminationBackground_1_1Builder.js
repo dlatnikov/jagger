@@ -1,4 +1,0 @@
-var classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationBackground_1_1Builder =
-[
-    [ "build", "classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1termination_1_1JTerminationBackground_1_1Builder_a0453532b338c864aa49daee3ee1942d8.html#a0453532b338c864aa49daee3ee1942d8", null ]
-];
