@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1limits_1_1JLimit.html" title="Allow to compare your results with predefined reference values or baseline session values and decide ..." alt="" coords="5,37,353,76"/>
-<area shape="rect" id="node2" href="$classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1limits_1_1JLimitVsBaseline.html" title="Allow to compare a performance test with some baseline (another performance test, which was saved in ..." alt="" coords="401,5,748,44"/>
-<area shape="rect" id="node3" href="$classcom_1_1griddynamics_1_1jagger_1_1user_1_1test_1_1configurations_1_1limits_1_1JLimitVsRefValue.html" title="Allow to compare a performance test with some reference value. " alt="" coords="401,68,748,107"/>
-</map>
